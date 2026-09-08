@@ -1,19 +1,12 @@
-const {
-    Producto,
-    ItemCarrito,
-    Carrito,
-    DescuentoFijo,
-    DescuentoPorcentual,
-    DescuentoPorCantidad,
-} = require('./domain.js');
+import { Producto, ItemCarrito, Carrito, DescuentoPorCantidad } from './domain.js';
 
-const { 
-    aumentarPrecioBase, 
-    aumentarPrecioBaseMap, 
-    precioMasAlto, 
-    productosMasBaratosQue, 
-    obtenerSumaTotalPrecios, 
-    ordenarListaProductos } = require('./functions.js');
+import {
+    aumentarPrecioBaseMap,
+    precioMasAlto,
+    productosMasBaratosQue,
+    obtenerSumaTotalPrecios,
+    ordenarListaProductos,
+} from './functions.js';
 
 const carrito = new Carrito();
 

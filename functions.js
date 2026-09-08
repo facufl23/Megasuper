@@ -1,4 +1,4 @@
-const { Producto } = require('./domain.js');
+import { Producto } from './domain.js';
 
 function aumentarPrecioBase(productos, monto) {
     productos.forEach((producto) => {
@@ -36,7 +36,7 @@ function ordenarListaProductos(productos) {
     });
 }
 
-module.exports = {
+export {
     aumentarPrecioBase,
     aumentarPrecioBaseMap,
     precioMasAlto,

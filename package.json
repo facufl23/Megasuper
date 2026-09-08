@@ -1,0 +1,30 @@
+{
+  "name": "megasuper",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/facufl23/Megasuper#readme",
+  "bugs": {
+    "url": "https://github.com/facufl23/Megasuper/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/facufl23/Megasuper.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.10.0",
+    "globals": "^17.12.0"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

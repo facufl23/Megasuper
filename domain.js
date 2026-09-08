@@ -1,3 +1,4 @@
+
 class Producto {
     constructor(nombre, precioBase) {
         if (!nombre) {
@@ -77,11 +78,11 @@ class DescuentoPorCantidad {
     }
 }
 
-module.exports = {
+export {
     Producto,
     ItemCarrito,
     Carrito,
     DescuentoFijo,
-    DescuentoPorCantidad,
+    DescuentoPorcentual,
     DescuentoPorCantidad,
 };
